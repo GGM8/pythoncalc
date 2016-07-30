@@ -66,7 +66,7 @@ def end():
 def main():
     operation = input("What do you want to do?(+, -, x, /, ^): ")
     #Checks for a valid operation
-    if(operation != "+" and operation != "-" and operation != "x" and operation != "/" and operation != "^"):
+    if(operation != "+" and operation != "-" and operation != "*" and operation != "/" and operation != "^"):
         print("You must enter a valid operation.")
         main()
     else:
